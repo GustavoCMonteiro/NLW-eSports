@@ -68,7 +68,6 @@ const CreateAdModal = () => {
                 className="bg-zinc-900 py-3 px-4 rounded text-sm placeholder:text-zinc-500 appearance-none"
                 defaultValue=""
               >
-                <option disabled>Selecione o game que deseja jogar</option>
                 {games.map((game) => {
                   return (
                     <option key={game.id} value={game.id}>
